@@ -1,6 +1,6 @@
 {
   "id": "a6daf172-81df-4b55-a6c1-edf2c45dacfb",
-  "name": "T3",
+  "name": "Namnuang Store",
   "aiProvider": "gemini",
   "platforms": [
     "line"
@@ -18,11 +18,32 @@
       "อัปเดตข้อมูลสินค้าและโปรโมชั่น"
     ]
   },
-  "company": "แหนมเนือง",
-  "googleSheets": [],
+  "company": "ร้านแหนมเนือง",
+  "googleSheets": [
+    "https://docs.google.com/spreadsheets/d/1dfz-r6ng9qe9JLb72oYM-QR4ZeCPYfRNcYNnId3Gwa8/edit?gid=0#gid=0",
+    "https://docs.google.com/spreadsheets/d/1dfz-r6ng9qe9JLb72oYM-QR4ZeCPYfRNcYNnId3Gwa8/edit?gid=1743347740#gid=1743347740",
+    "https://docs.google.com/spreadsheets/d/1dfz-r6ng9qe9JLb72oYM-QR4ZeCPYfRNcYNnId3Gwa8/edit?gid=1547031378#gid=1547031378"
+  ],
   "functions": {
     "sendPictures": true,
-    "writeSheet": false,
-    "writeSheetData": []
+    "writeSheet": true,
+    "writeSheetData": [
+      {
+        "label": "ชื่อ",
+        "key": "name"
+      },
+      {
+        "label": "เบอร์",
+        "key": "phone"
+      },
+      {
+        "label": "สินค้า",
+        "key": "product"
+      },
+      {
+        "label": "ที่อยู่",
+        "key": "address"
+      }
+    ]
   }
 }
