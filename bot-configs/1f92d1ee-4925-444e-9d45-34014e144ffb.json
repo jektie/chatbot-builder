@@ -1,0 +1,49 @@
+{
+  "id": "1f92d1ee-4925-444e-9d45-34014e144ffb",
+  "name": "Namnuang Store",
+  "aiProvider": "gemini",
+  "platforms": [
+    "line"
+  ],
+  "duties": {
+    "manual": "admin เพศชาย ชื่อตี๋ ตอบคำถามลูกค้า แนะนำสินค้า โปรโมชั่น",
+    "generated": [
+      "ตอบคำถามลูกค้าเกี่ยวกับสินค้าและบริการ",
+      "แนะนำสินค้าที่เหมาะสมกับความต้องการของลูกค้า",
+      "แจ้งโปรโมชั่นและส่วนลดต่างๆให้ลูกค้าทราบ",
+      "ให้ข้อมูลรายละเอียดสินค้าอย่างครบถ้วน",
+      "ติดตามและตอบคำถามลูกค้าหลังการขาย",
+      "ช่วยเหลือลูกค้าในการสั่งซื้อสินค้า",
+      "แนะนำวิธีการใช้งานสินค้า",
+      "เก็บรวบรวมข้อมูลความคิดเห็นของลูกค้า"
+    ]
+  },
+  "company": "แหนมเนือง กรุงเทพ",
+  "functions": {
+    "sendPictures": true,
+    "writeSheet": false,
+    "writeSheetData": []
+  },
+  "googleSheetsRaw": [
+    "https://docs.google.com/spreadsheets/d/1dfz-r6ng9qe9JLb72oYM-QR4ZeCPYfRNcYNnId3Gwa8/edit?gid=0#gid=0",
+    "https://docs.google.com/spreadsheets/d/1dfz-r6ng9qe9JLb72oYM-QR4ZeCPYfRNcYNnId3Gwa8/edit?gid=1743347740#gid=1743347740",
+    "https://docs.google.com/spreadsheets/d/1dfz-r6ng9qe9JLb72oYM-QR4ZeCPYfRNcYNnId3Gwa8/edit?gid=1547031378#gid=1547031378"
+  ],
+  "googleSheets": {
+    "read": [
+      {
+        "sheetId": "1dfz-r6ng9qe9JLb72oYM-QR4ZeCPYfRNcYNnId3Gwa8",
+        "sheetName": "ข้อมูลร้าน"
+      },
+      {
+        "sheetId": "1dfz-r6ng9qe9JLb72oYM-QR4ZeCPYfRNcYNnId3Gwa8",
+        "sheetName": "เมนูและราคา"
+      },
+      {
+        "sheetId": "1dfz-r6ng9qe9JLb72oYM-QR4ZeCPYfRNcYNnId3Gwa8",
+        "sheetName": "สถานะประจำวัน"
+      }
+    ],
+    "write": null
+  }
+}
